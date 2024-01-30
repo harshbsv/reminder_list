@@ -1,16 +1,14 @@
-# reminder_list
+# Reminder List
 
-A new Flutter project.
+A Flutter app that allows users to create a list of reminders.
 
-## Getting Started
+## How to run? (Step-wise instructions)
+- Download the .zip for the project directly into your desired directory. Or, you can use HTTPS, SSH, or GitHub CLI to clone the project into a local directory on your machine.
+- Open the project in VS Code, or Android Studio.
+- Using the built in Terminal, or the one available on your machine, run the command: "flutter pub get" to install all the required dependencies.
+- Also, run the command "dart run build_runner build --delete-conflicting-outputs" to generate code for the model class included in the project.
+- Your project setup will be ready to run on Mobile Devices now. You can use either the Android/iOS Emulators, or your own Physical Devices. Refer [this article]("https://docs.flutter.dev/get-started/install") for further instructions. Based on your machine's operating system, choose the steps further to get an in-detail description and examples.
 
-This project is a starting point for a Flutter application.
+- NOTE: This project has been built on VS Code version - 1.85.2, on a Windows laptop running the 23H2(22631.3085) build. The Android Phone used for testing runs Android 13, with latest Android security updates (1/11/2021).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter version used: Flutter (Channel stable, 3.16.8, on Microsoft Windows Version 10.0.22631.3085, locale en-IN)
